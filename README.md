@@ -2,7 +2,7 @@
 
 🚀 Run the application by the following link:
 
-###🔗 https://shkholikov.github.io/TO-DO/
+🔗 https://shkholikov.github.io/TO-DO/
 
 ⚙️ To run this project clone it and run the following command in the project folder to install all dependencies.
 

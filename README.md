@@ -1,4 +1,4 @@
-# Getting started with this project
+# React TO-DO APP using React Hooks and Material UI
 
 🚀 Run the application by the following link:
 

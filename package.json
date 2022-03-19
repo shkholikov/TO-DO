@@ -1,7 +1,7 @@
 {
   "name": "TO-DO APP",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "homepage": "https://shkholikov.github.io/TO-DO",
   "dependencies": {
     "@emotion/react": "^11.7.1",

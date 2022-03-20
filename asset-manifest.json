@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/TO-DO/static/js/main.9400feda.js",
+    "main.js": "/TO-DO/static/js/main.714a566f.js",
     "static/js/787.e0862740.chunk.js": "/TO-DO/static/js/787.e0862740.chunk.js",
     "index.html": "/TO-DO/index.html",
-    "main.9400feda.js.map": "/TO-DO/static/js/main.9400feda.js.map",
+    "main.714a566f.js.map": "/TO-DO/static/js/main.714a566f.js.map",
     "787.e0862740.chunk.js.map": "/TO-DO/static/js/787.e0862740.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.9400feda.js"
+    "static/js/main.714a566f.js"
   ]
 }

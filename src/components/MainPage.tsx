@@ -109,7 +109,18 @@ function MainPage() {
             fontFamily: "monospace"
           }}
         >
-          <Typography variant="h4" fontFamily={"monospace"}>
+          <Typography
+            variant="h4"
+            fontFamily={"monospace"}
+            sx={{
+              fontSize: {
+                lg: 35,
+                md: 30,
+                sm: 25,
+                xs: 25
+              }
+            }}
+          >
             📋 TODO APP
           </Typography>
           <NewTaskCreator
@@ -122,6 +133,10 @@ function MainPage() {
           />
           <Divider />
           <TasksTable parentState={state} setParentState={setState} deleteTask={deleteTask} />
+          <Divider />
+          <Typography variant="subtitle2" fontFamily={"monospace"} sx={{ p: 1, pt: 2 }}>
+            Created by Shakhzod Kholikov 👨‍💻 | Copyright &copy; {new Date().getFullYear()}
+          </Typography>
         </Box>
       </Box>
     </div>

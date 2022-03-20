@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import {
   Box,
   CircularProgress,
+  Grid,
   Table,
   TableBody,
   TableCell,
@@ -29,15 +30,45 @@ function TasksTable(props: any) {
       {state.componentLoaded === true ? (
         <div>
           <Box sx={{ p: 4 }}>
-            <Typography variant="h5" fontFamily={"monospace"}>
+            <Typography
+              variant="h5"
+              fontFamily={"monospace"}
+              sx={{
+                fontSize: {
+                  lg: 30,
+                  md: 25,
+                  sm: 20,
+                  xs: 20
+                }
+              }}
+            >
               📝 Your Tasks
             </Typography>
             {props.parentState.tasks.length === 0 ? (
-              <Typography variant="h5" fontFamily={"monospace"} sx={{ p: 2, textAlign: "left" }}>
+              <Typography
+                variant="h5"
+                fontFamily={"monospace"}
+                sx={{
+                  p: 2,
+                  textAlign: "left",
+                  fontSize: {
+                    lg: 30,
+                    md: 25,
+                    sm: 20,
+                    xs: 20
+                  }
+                }}
+              >
                 🙅‍♂️ There are no tasks
               </Typography>
             ) : (
-              <Table>
+              <Table
+                sx={{
+                  display: { xs: "block", sm: "block", md: "table", lg: "table" },
+                  width: "100%",
+                  overflowX: "auto"
+                }}
+              >
                 <TableHead>
                   <TableRow>
                     <TableCell>

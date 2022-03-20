@@ -98,7 +98,7 @@ function MainPage() {
         <Box
           sx={{
             mx: "auto",
-            width: "75%",
+            width: { xs: "95%", sm: "90%", md: "80%", lg: "75%" },
             height: "100%",
             p: 1,
             m: 1,
@@ -134,7 +134,20 @@ function MainPage() {
           <Divider />
           <TasksTable parentState={state} setParentState={setState} deleteTask={deleteTask} />
           <Divider />
-          <Typography variant="subtitle2" fontFamily={"monospace"} sx={{ p: 1, pt: 2 }}>
+          <Typography
+            variant="subtitle2"
+            fontFamily={"monospace"}
+            sx={{
+              p: 1,
+              pt: 2,
+              fontSize: {
+                lg: 14,
+                md: 12,
+                sm: 10,
+                xs: 10
+              }
+            }}
+          >
             Created by Shakhzod Kholikov 👨‍💻 | Copyright &copy; {new Date().getFullYear()}
           </Typography>
         </Box>

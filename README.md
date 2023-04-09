@@ -4,8 +4,11 @@
 
 ### 🔗 https://shkholikov.github.io/TO-DO/
 
-⚙️ To run this project clone it and run the following command in the project folder to install all dependencies.
-
+⚙️ To run this project, first clone it.
+```
+git clone https://github.com/shkholikov/TO-DO.git
+```
+⚙️ Run the following command in the project folder to install all dependencies.
 ```
 npm install
 ```
